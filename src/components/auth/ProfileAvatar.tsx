@@ -52,7 +52,7 @@ export default function ProfileAvatar({ user }: ProfileAvatarProps) {
                 className="h-10 w-10 rounded-full mr-2"
               />
               <div>
-                <p className="font-semibold">{user.uid}</p>
+                <p className="font-semibold">{user.displayName}</p>
                 <p className="text-xs text-gray-500">{user.email}</p>
               </div>
             </div>
